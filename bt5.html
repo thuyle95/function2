@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // Bài 5: Viết hàm nhận vào 3 số nguyên bất kỳ, trả về số nguyên có giá trị nhỏ nhất.
+        let a = parseInt(prompt('Nhập số nguyên thứ nhất: '));
+        let b = parseInt(prompt('Nhập số nguyên thứ hai: '));
+        let c = parseInt(prompt('Nhập số nguyên thứ ba: '));
+        let kq;
+        max(a,b,c);
+        alert(kq);
+        function max(a,b,c) {
+            if ((a > b) && (a > c)){
+                kq = a;
+                return kq;
+            } else if ((b > a) && (b > c)) {
+                kq = b;
+                return kq;
+            } else if ((c > a) && (c > b)) {
+                kq = c;
+                return kq;
+            }
+        }
+
+    </script>
+</body>
+</html>

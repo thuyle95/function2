@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        /*
+            Bài 6: Viết hàm nhận vào một số, kiểm tra xem nếu số đưa vào có phải là nguyên dương không.
+            Nếu là nguyên dương trả về true, ngược lại trả về false.
+        */
+
+        let num = Number(prompt('Nhập 1 số bất kỳ: '));
+        check(num);
+        function check(num) {
+            let kq;
+
+            if (num > 0) {
+                kq = true;
+                console.log(kq);
+            } else if (num <= 0) {
+                kq = false;
+                console.log(kq);
+            }
+        }
+    </script>
+</body>
+</html>
